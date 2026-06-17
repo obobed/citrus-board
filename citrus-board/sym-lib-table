@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MCU_RaspberryPi_RP2350A") (type "KiCad") (uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350A.kicad_sym") (options "") (descr ""))
+	(lib (name "MCU_RaspberryPi_RP2350B") (type "KiCad") (uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350B.kicad_sym") (options "") (descr ""))
+)
