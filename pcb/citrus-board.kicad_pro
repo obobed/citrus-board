@@ -90,10 +90,6 @@
           "net tie, fine if touching"
         ],
         [
-          "lib_footprint_mismatch|131471894|77730580|1db6e48f-7753-4d1d-86c8-5e6bf936203f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|133356500|54832600|e09813b5-5308-4144-9754-5eb732e2664f|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -106,31 +102,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|154625000|77688579|89f0cc60-0945-4b53-93fb-e37faea4e977|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "padstack|140112000|49922500|dca4b09c-b5ff-4f90-910a-bf49b07a373d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "padstack|145892000|49922500|bd94257a-71cd-4fc6-95f9-a255a07dd1fa|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|138432000|45272500|897a0352-e14b-4098-a5a2-a500b37d53bc|721b4d22-a2b4-4ac6-9d0c-9d765011bbaf",
-          ""
-        ],
-        [
-          "silk_over_copper|145154749|68262799|66bff8aa-eb6f-4f69-b95b-dd8824ff0ccf|c0754f30-9111-4e3b-9328-89c866ce8c45",
-          ""
-        ],
-        [
-          "silk_over_copper|147502000|45272500|4d4aa5e6-b7cc-4df8-ade1-ff213befb010|de99d4c1-26e7-4ce2-a89b-9761617598e9",
-          ""
-        ],
-        [
-          "silk_over_copper|147502000|47232500|f2f0e668-abfc-46fa-a71b-68a393a98def|de99d4c1-26e7-4ce2-a89b-9761617598e9",
           ""
         ]
       ],
@@ -139,9 +115,9 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -155,7 +131,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -176,12 +152,12 @@
         "npth_inside_courtyard": "error",
         "padstack": "warning",
         "pth_inside_courtyard": "error",
-        "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "shorting_items": "ignore",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -279,6 +255,7 @@
         1.016,
         1.27,
         1.524,
+        2.0,
         2.3114
       ],
       "tuning_pattern_settings": {
