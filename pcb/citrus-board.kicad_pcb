@@ -2474,7 +2474,7 @@
 	(footprint "citrus-lib:Conn_01x14_Castellated"
 		(layer "F.Cu")
 		(uuid "1db6e48f-7753-4d1d-86c8-5e6bf936203f")
-		(at 130.81 77.6986)
+		(at 130.794051 77.687622)
 		(property "Reference" "J5"
 			(at -2.552966 -4.689477 0)
 			(unlocked yes)

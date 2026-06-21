@@ -1,6 +1,8 @@
 # Citrus Board
 A RP2350 based devboard with LiPO and HSTX support!
 
+
+## Why I made this + features
 I made this since I wanted an alternative to the mainstream RP2350/2040 boards (like the xiaos), but with support for the more niche features of the chip that aren't exposed on almost all of them, like HSTX ([page 1203](https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008373-DS-2-rp2350-datasheet.pdf#page=1203)), which allows you to easily add an external display (or even camera) without sacrificing a lot the small computing power of the small chip, or even LiPo support (although most boards have it (except for the Raspberry Pi Pico), many don't have a dedicated charging IC to both support the chip's usage and to charge the battery at the same time). Additionally, it has 26 pins, indicator LEDs for charging and power, the HSTX 22pin ribbon cable terminal (which can be used with libraries like [this](https://github.com/adafruit/Adafruit-DVI-HSTX) from Adafruit) and a debug connector that is exactly compatible with the oficial [Raspberry Pi Debug Probe
 ](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html).
 
