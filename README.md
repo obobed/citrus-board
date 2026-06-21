@@ -4,7 +4,7 @@ A RP2350 based devboard with LiPO and HSTX support!
 I made this since I wanted an alternative to most other RP2350 devboards which almost none of them had HSTX AND LiPo support. It has 26 pins, indicator leds, a terminal for a HSTX 22pin ribbon cable (that can go to a converter board) and a 3 pin debugging conenctor, which is compatabile with the [Raspberry Pi Debug Probe
 ](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html)
 
-![](/images/3d-no-bg.png)
+![](/images/hero-no-bg.png)
 
 ## Repo Structure
 * [/pcb](/pcb) - My KiCad design files
@@ -19,6 +19,7 @@ I made this since I wanted an alternative to most other RP2350 devboards which a
 ## PCB
 ![](/images/pcb.png)
 ## 3D View
+![](/images/hero-no-bg.png)
 ![](/images/top-no-bg.png)
 ![](/images/back-no-bg.png)
 

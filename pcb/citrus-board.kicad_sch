@@ -15081,7 +15081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
+		(property "Footprint" "citrus-lib:Conn_01x14_Castellated"
 			(at 360.68 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -21348,7 +21348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
+		(property "Footprint" "citrus-lib:Conn_01x14_Castellated"
 			(at 363.22 144.78 0)
 			(hide yes)
 			(show_name no)
