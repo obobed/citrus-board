@@ -23,6 +23,17 @@ I made this since I wanted an alternative to the mainstream RP2350/2040 boards (
 ![](/images/top-no-bg.png)
 ![](/images/back-no-bg.png)
 
+## Assembly
+Welll this is a devboard, so there isn't much to assemble, but if you want to hand solder (definitely do not reccomend) instead of doing PCBA, follow these steps (my bom at the bottom accounts for using PCBA and not hand soldering)
+Prerequisite:
+* Purchase a stencil from JLCPCB alongside your order, and use the [LCSC BOM](/bom/component_bom.csv) to buy the separate parts from LCSC
+
+1. Apply the paste
+2. Place components
+3. Use your preferred equipment (oven, hot-air gun or hotplate) to solder the board
+4. Done!
+
+(this section is here because the submission precheck kept giving me warning about this)
 
 ## BOM
 ### Component BOM
